@@ -1,0 +1,68 @@
+
+/* .post is a selector which applies the following style to elements with a className (attribute) of post */
+.post {
+    /* <margin>, <padding> etc. are in-built <properties> of a CSS class named <post> */
+    margin: 1rem 0;
+    padding: 1rem;
+    background-color: #f165ec;
+    border-radius: 8px; /*Gives a rounder border */
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+    animation: animate-in 1s ease-out forwards; 
+  }
+
+  .Header {
+    margin: 1rem auto; /* Sets margin on top and bottom, and centers the element horizontally */
+  padding: 1rem;
+  max-width: 600px; /* Limits the width of the element to avoid extending throughout the page */
+  background-color: rgb(93, 192, 238); /* Sets the background color to light blue */
+  border-radius: 8px; /* Applies rounded borders */
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  /*Description of the author class */
+  .author {
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: #543280;
+    margin: 0;
+    text-transform: uppercase;
+  }
+  
+  /* Description of the text class */
+  .text {
+    white-space: pre-wrap;
+    font-size: 1.25rem;
+    margin: 0.25rem 0 0 0;
+    color: #593884;
+    font-style: italic;
+  }
+  
+  
+  @keyframes animate-in {
+    from {
+      opacity: 0;
+      transform: translateY(1rem);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
