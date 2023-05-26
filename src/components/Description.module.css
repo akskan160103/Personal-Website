@@ -8,15 +8,24 @@
     border-radius: 8px; /*Gives a rounder border */
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
     animation: animate-in 1s ease-out forwards; 
+    text-align: center;
   }
 
   .Header {
+
     margin: 1rem auto; /* Sets margin on top and bottom, and centers the element horizontally */
   padding: 1rem;
   max-width: 600px; /* Limits the width of the element to avoid extending throughout the page */
   background-color: rgb(93, 192, 238); /* Sets the background color to light blue */
   border-radius: 8px; /* Applies rounded borders */
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  text-align: center; /* Centrally aligns text within this element w.r.t this element */
+  position: absolute; 
+  top: 0%; /*Position this element 0% down from the top of its containing element */ /*The containing element in this case will be <body/> */
+  left: 50%; /*Position this element such that its left edge is at the center (50%) of its containing element*/ /* The containing element will be <body/> */
+  transform: translate(-50%, 0);  /* Positions this element 50% of its current length to the left */ /*Always relative to current position */
+
+
   }
 
 

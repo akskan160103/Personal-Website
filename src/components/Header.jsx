@@ -1,7 +1,7 @@
 import React from 'react'
 import classes from './Description.module.css'
 
-const WelcomeMessage = ["Hello World", "Welcome to this website"]
+const WelcomeMessage = [ "Welcome ! ", "Hello there !"]
 
 function Header() 
 { const a = (Math.random() > 0.5) ? WelcomeMessage[0] : WelcomeMessage[1]
