@@ -1,14 +1,25 @@
 import React from 'react'
 import classes from './Description.module.css'
 function Description() {
+
+   return (
+    <div>
+          <Button text="About me"/>
+          <Button text="Experience" />
+          <Button text="Projects" />
+          <Button text="Hobbies" />
+    </div>
+  );
+
+}
+
+  function Button(props){
+    
     return (
-      <div className={classes.post}> 
-        <p>About me</p>
-        <p>Hobbies</p>
-        <p>Student Orgs / Clubs</p>
-        <p>Projects</p>
-      </div>
+      <p className={classes.post}> {props.text}</p>
     );
+
+
   }
   
 

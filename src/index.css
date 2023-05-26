@@ -7,11 +7,12 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgb(117, 1, 117);
+  background-color:#512bf9;
   padding: 0;
+  
 
   /*Centering the sub-elements*/
-  
+
   display: flex;
   justify-content: center;
   align-items: center;
