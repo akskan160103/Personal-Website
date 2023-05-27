@@ -7,7 +7,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color:#512bf9;
+  background-color:#e7e6eb;
   padding: 0;
   
 
@@ -17,7 +17,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-
+ 
   
 }
 

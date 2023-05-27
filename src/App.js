@@ -1,6 +1,7 @@
 import React from 'react'
 import Description from './components/Description';
 import Header from './components/Header';
+import SocialLinks from './components/SocialLinks';
 //import Header from './components/Header';
 
 
@@ -12,9 +13,11 @@ function App()
       <div>
         <Header />
         <Description />  
+        <SocialLinks />
+
         
       </div>    
-    ); 
+    );  
    
   }
   
