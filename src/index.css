@@ -14,6 +14,7 @@ body{
   color: var(--color-white);
   line-height: 1.7; /* The height of a line within this element will be 1.7 times the font size of that element*/ /*Adjusts vertical spacing between lines within this element */
   background-image: url(Pictures/Keyboard.jpg);
+  background-size: cover;
 
  
    
@@ -81,6 +82,7 @@ h5 {
 
 h1{
   font-size: 2.5 rem;
+  
 }
 
 /*Each react componenet will return a section element */
@@ -101,6 +103,7 @@ margin-bottom: 3rem;
 a {
   color: var(--color-primary);
   transition: var(--transition);
+  text-decoration: none;
 }
 
 /* hover is a pseudo class which represents a state: */
@@ -113,12 +116,12 @@ a:hover{
   width: max-content; 
   display: inline-block;
   color: var(--color-primary);
-  padding: 0.75 rem 1.2 rem;
-  border-radius: 0.4 rem; /* Rounded border edges */
+  padding: 0.75rem 1.2rem;
+  border-radius: 0.4rem; /* Rounded border edges */
   cursor: pointer;
   border: 1px solid var(--color-primary);
   transition: var(--transition);
-}
+} 
 
 .btn:hover{
   background-color: var(--color-white);
@@ -135,9 +138,39 @@ a:hover{
 /* Tag selector which selects <img> element */
 img{
   display: block;
-  width: 100%; /* Relative to the containing element */
+  width: 50%; /* Relative to the containing element */
   object-fit: cover; /* Don't know what this means: No need to worry about it for now */
+  position:absolute;
+  left: 50%;
+  transform: translate(-50%, 0); 
 }
+
+/*
+
+    Inline styles: Styles applied directly to the element using the style attribute have the highest specificity.
+
+    ID selectors: Selectors targeting the element by its ID have higher specificity than class selectors.
+
+    Class selectors: Selectors targeting the element by its class have lower specificity than ID selectors.
+
+    Element selectors: Selectors targeting the element by its HTML tag have the lowest specificity.
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

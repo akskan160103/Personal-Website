@@ -1,7 +1,6 @@
-import React from 'react'
-import Description from './components/Description';
-import Header from './components/Header';
-import SocialLinks from './components/SocialLinks'; 
+import React from 'react';
+import Header from './components/Header/Header';
+
 
 
 
@@ -11,13 +10,11 @@ function App()
   { 
     return ( 
       <div>
-        <Header />
-        <Description />  
-        <SocialLinks />
-
         
-      </div>    
-      
+            <Header /> 
+        
+      </div>      
+       
 
      
     );  

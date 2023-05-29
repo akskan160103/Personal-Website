@@ -12,7 +12,7 @@ function SocialLinks(){
         //All the signs appear side-by-side since <a></a> is an in-line element not a block-level element
 
 
-        <div>
+        <div> 
 
             <a href="https://github.com" target="_blank" rel="noreferrer"> <BsGithub /> </a> 
             <a href="https://linkedin.com" target="_blank" rel="noreferrer"><BsLinkedin /></a>
