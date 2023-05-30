@@ -88,6 +88,8 @@ h1{
 /*Each react componenet will return a section element */
 section{
 margin-top: 8 rem;
+height: 20rem;
+
 }
 
 /* Selector which selects h2 elements which are child elements of section elements */
