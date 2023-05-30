@@ -1,1 +1,59 @@
+ header{
+    height: 100vh;
+    padding-top: 7rem;
+    overflow: hidden; /* Hides anything which overflows the element */
+ }
+
+ .header_container{
+    text-align: center; 
+     
+ }
+
+ .SocialLinksContainer
+ {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    gap: 20px;
+    right:35%; 
+
+ }
+
+ /* The containing element is the one that has the classname attribute: SocialLinksContainer*/
+ .SocialLinksContainer::after{
+    content:"";
+    display:block;
+    height: 2em;
+    width: 0.125em; 
+    background-color: var(--color-primary) ;
+   
+    
+ }
+
+ .code{
+    
+    position: relative;
+    bottom: 7em;
+    border-style: solid;
+    border-color: var(--color-primary);
+    border-radius: 12rem 12rem 0 0; 
+
+    
+ }
+
+ .scroll_down{
+    position: absolute;
+    left: 75%;
+    bottom: 1.5em;
+    transform: rotate(90deg); /* Rotates the selected element 45 degress clockwise */
+    font-weight:300;
+    font-size: 0.9rem;
+
+
+ }
  
+
+
+
+

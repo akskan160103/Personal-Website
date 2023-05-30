@@ -2,6 +2,7 @@ import React from 'react'
 import {BsGithub} from 'react-icons/bs'
 import {BsLinkedin} from 'react-icons/bs'
 import {BsInstagram} from 'react-icons/bs'
+import './Header.css'
 
 
 function SocialLinks(){
@@ -12,7 +13,7 @@ function SocialLinks(){
         //All the signs appear side-by-side since <a></a> is an in-line element not a block-level element
 
 
-        <div> 
+        <div className='SocialLinksContainer'> 
 
             <a href="https://github.com" target="_blank" rel="noreferrer"> <BsGithub /> </a> 
             <a href="https://linkedin.com" target="_blank" rel="noreferrer"><BsLinkedin /></a>
