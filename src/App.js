@@ -17,7 +17,7 @@ function App()
             <Header />  
             <Nav />  
             <About />
-            <Experience />           
+            <Experience />            
         
       </div>       
        

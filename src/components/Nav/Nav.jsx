@@ -7,7 +7,7 @@ import {VscBook} from 'react-icons/vsc';
 
 function Nav(){
     return(
-  
+        <Nav>
         <div>
             <a href='#Home'><AiOutlineHome/></a>
             <a href='#About'><BsPersonFill/></a>
@@ -15,6 +15,7 @@ function Nav(){
            
            
         </div>
+        </Nav>
 
     );
 }
