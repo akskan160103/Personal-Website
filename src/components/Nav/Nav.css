@@ -1,3 +1,16 @@
 nav{
-background-color: rgb(77, 181, 255);
+background-color:  rgba(28, 76, 110, 0.4) ; /* background-colo is not inherited by the child element */
+width: max-content;
+border-radius: 0.3em 0.3em 0.3em 0.3em;
+position: fixed;
+left: 50%; 
+transform: translate(-50%,0);
+bottom: 1em;
+backdrop-filter: blur(15px); /* Don't know what this does: */
 }
+
+nav a{
+    padding: 1rem;
+    
+}
+

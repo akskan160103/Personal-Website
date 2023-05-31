@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
+/* All parents elements are ancestral elements
+All child elements are descendant elements
+*/
+
+
 body{
   margin:0; /*Min. space between this element and other elements */
   padding:0; /*Space between content of this element and its inner eddges */
@@ -45,7 +50,7 @@ If that property is not defined for the <html> element, uses the default propert
   /* Defining CSS variables which can be accessed anywhere within the <html> element */
   --color-bg: #1f1f38;
   --color-bg-variant: #2c2c6c;
-  --color-primary: #4db5ff;
+  --color-primary: rgb(77, 181, 255);
   --color-primary-variant: rgba(77,181,255,0.4);
   --color-white: #fff;
   --color-light: rgba(255,255,255,0.6);
@@ -81,13 +86,13 @@ h5 {
 }
 
 h1{
-  font-size: 2.5 rem;
+  font-size: 2.5rem;
   
 }
 
 /*Each react componenet will return a section element */
 section{
-margin-top: 8 rem;
+margin-top: 8rem;
 height: 20rem;
 
 }
@@ -166,6 +171,15 @@ of its containing element.
 
 The height of a <div> element (if not mentioned) is the heigth of its 
 content */
+
+/*
+Postion
+
+1. Absolute: Positions the selected element relative to the closest (hierarchial) ancestral element
+2. Relative: Positions the selected element relative to itself
+3. Fixed: Positions the selected element relative to the viewport
+
+*/
 
 
 

@@ -11,11 +11,11 @@ import Experience from './components/Experience/Experience';
 //React Components are functions which return an HTML element:
 function App()
   { 
-    return ( 
+    return (  
       <div>
-            
+             
             <Header />  
-            <Nav />  
+            <Nav />   
             <About />
             <Experience />            
         
