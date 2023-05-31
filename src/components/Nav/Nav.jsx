@@ -7,11 +7,12 @@ import {VscBook} from 'react-icons/vsc';
 
 function Nav(){
     return(
-
+  
         <div>
             <a href='#Home'><AiOutlineHome/></a>
             <a href='#About'><BsPersonFill/></a>
-            <a href='#Projects'><VscBook/></a>
+            <a href='#Experience'><VscBook/></a>
+           
            
         </div>
 

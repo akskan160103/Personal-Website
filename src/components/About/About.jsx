@@ -4,8 +4,8 @@ import '../../index.css'
 function About()
 {
     return(
-        <section> {/* Block Level Element*/}
-            <h1 id='About'>About</h1>
+        <section id='About'> {/* Block Level Element*/}
+            <h1>About</h1>
         </section>
     );
    
