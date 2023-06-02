@@ -81,7 +81,8 @@ h1,
 h2,
 h3,
 h4,
-h5 {
+h5,
+h6 {
   font-weight: 500; /* Font weight refers to the thickness/boldness of text */
 }
 
@@ -93,7 +94,7 @@ h1{
 /*Each react componenet will return a section element */
 section{
 margin-top: 8rem;
-height: 20rem;
+height: 25rem;
 
 }
 
@@ -178,6 +179,12 @@ Postion
 1. Absolute: Positions the selected element relative to the closest (hierarchial) ancestral element
 2. Relative: Positions the selected element relative to itself
 3. Fixed: Positions the selected element relative to the viewport
+
+Absolute and Fixed are taken out of "normal document flow" while relative and static are 
+part of "normal document flow" 
+
+If an element is not part of normal document flow, it will not be visible to other elements i.e: other elements
+won't make space for it etc.
 
 */
 

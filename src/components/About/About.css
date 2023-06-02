@@ -1,0 +1,59 @@
+.Me{
+    position:absolute;
+    width:100%; 
+    transform: rotate(-10deg);
+    left:0%;
+    border-radius: 0.35em 0.35em 0.35em 0.35em;
+    transition: var(--transition);
+    
+   
+}
+
+.Me:hover{
+   
+  transform: rotate(0deg);
+}
+
+
+.Me_Container{
+    position:relative;
+    width:15em;
+    height:15em;
+    background-color: var(--color-primary);
+    border-radius: 0.35em 0.35em 0.35em 0.35em;
+    display:inline-block;
+    
+}
+
+.Education_Container{
+    border-style: solid;
+    position: absolute;
+    left: 80%;
+    width:13em;
+    text-align: center;
+    background-color: var(--color-bg-variant);
+    border-radius:0.35em;
+    display:inline-block;
+   
+    
+}
+
+.Hobbies_Container{
+    border-style: solid;
+    position:absolute;
+    left:40%;
+    width: 18em;
+    background: var(--color-bg-variant);
+    border-radius: 0.35em;
+    text-align:center;
+    display:inline-block;
+}
+
+.Hobbies_Content{
+    text-align: left;
+    font-size: x-small;
+}
+
+
+
+

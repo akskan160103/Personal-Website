@@ -7,10 +7,18 @@ left: 50%;
 transform: translate(-50%,0);
 bottom: 1em;
 backdrop-filter: blur(15px); /* Don't know what this does: */
+padding: 0.9rem;
 }
 
 nav a{
-    padding: 1rem;
+    padding: 0.8rem;
     
+}
+
+/* active is a pseudo class which targets an element with a state between the element
+being clicked and let go */
+nav a.active{
+    background-color:var(--color-bg-variant)
+
 }
 
