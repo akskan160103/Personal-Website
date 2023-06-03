@@ -1,0 +1,47 @@
+.Experience_Container{
+    top:3em;
+    margin-left: 3em;
+    position:absolute;
+    display: inline-block;
+    width: 45%;
+    border-style: solid;
+    border-radius: 0.35rem;
+    background-color: rgb(102, 30, 170);
+}
+
+.Experience_Container h4{
+    text-align: center;
+} 
+
+.Experience_Container h6{
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+.Experience_Container ul{
+    font-size: x-small;
+}
+
+.Project_Container{
+    top: 3em;
+    right:2em;
+    position:absolute;
+    display: inline-block;
+    width: 45%;
+    border-style: solid;
+    border-radius: 0.35rem;
+    background-color: var(--color-bg-variant)
+}
+.Project_Container h4{
+    text-align: center;
+}
+.Project_Container h6{
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+.Project_Container ul{
+    font-size: x-small;
+}
+#Skills{
+    position:relative;
+}

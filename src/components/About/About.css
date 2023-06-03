@@ -1,3 +1,13 @@
+#About_Container{
+    background: var(--color-bg);
+    background-image: url("https://www.transparenttextures.com/patterns/sos.png");
+    
+}
+
+section h5,h2 {
+    text-align: center;
+}
+
 .Me{
     position:absolute;
     width:100%; 

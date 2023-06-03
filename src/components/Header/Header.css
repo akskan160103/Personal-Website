@@ -2,12 +2,11 @@
     height: 100vh;
     padding-top: 7rem;
     overflow: hidden; /* Hides anything which overflows the element */
+    text-align: center; 
+    background-image: url('../../Pictures/Keyboard.jpg');
  }
 
- .header_container{
-    text-align: center; 
-     
- }
+
 
  .SocialLinksContainer
  {

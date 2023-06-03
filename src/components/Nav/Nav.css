@@ -17,6 +17,7 @@ nav a{
 
 /* active is a pseudo class which targets an element with a state between the element
 being clicked and let go */
+/* In this case .active is a class selector */
 nav a.active{
     background-color:var(--color-bg-variant)
 

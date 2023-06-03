@@ -16,7 +16,7 @@ function Nav(){
         <div>
             <a href='#Home' onClick={()=>setActiveNav('#Home')}className={activeNav==='#Home' ? 'active':' '}><AiOutlineHome/></a>
             <a href='#About_Container'onClick={()=>setActiveNav('#About')}className={activeNav==='#About' ? 'active':' '} ><BsPersonFill/></a>
-            <a href='#Experience'onClick={()=>setActiveNav('#Experience')}className={activeNav==='#Experience' ? 'active':' '}><VscBook/></a>
+            <a href='#Skills'onClick={()=>setActiveNav('#Experience')}className={activeNav==='#Experience' ? 'active':' '}><VscBook/></a>
            
            
         </div>
