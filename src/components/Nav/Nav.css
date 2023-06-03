@@ -8,6 +8,7 @@ transform: translate(-50%,0);
 bottom: 1em;
 backdrop-filter: blur(15px); /* Don't know what this does: */
 padding: 0.9rem;
+z-index: 1;
 }
 
 nav a{

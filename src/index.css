@@ -189,6 +189,21 @@ won't make space for it etc.
 
 */
 
+/* z-index property:
+
+The z-index value of an element is equivalent to the z-coordinate of that element.
+
+An element with a higher z-index value will appear "in front of" an element with a lower
+z-index value when they overlap.
+
+The default z-index value is zero (0)
+
+When overlapping elements have the same z-index value, they stack on top of each other according to the order in which
+they appear in html.
+
+
+*/
+
 
 
 
