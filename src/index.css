@@ -15,12 +15,13 @@ body{
   list-style:none;
   text-decoration: none;
   font-family: 'Poppins', sans-serif;
-  background-color: var(--color-bg); /* Could have used background: var(--color-bg) as well. background property can be used to set the background of an element to an image
-  etc. */
+  background-color: var(--color-bg); /* Could have used background: var(--color-bg) as well. background property can be used to set the background of an element to an image etc. */
   color: var(--color-white);
   line-height: 1.7; /* The height of a line within this element will be 1.7 times the font size of that element*/ /*Adjusts vertical spacing between lines within this element */
-  background-image: url("https://www.transparenttextures.com/patterns/sos.png");
+  /*background-image: url("https://www.transparenttextures.com/patterns/sos.png"); */
 
+  
+   
 
  
    
@@ -94,7 +95,7 @@ h1{
 
 /*Each react componenet will return a section element */
 section{
-margin-top: 8rem;
+margin-top: 0rem;
 
 
 }

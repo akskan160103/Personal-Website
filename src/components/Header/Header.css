@@ -3,7 +3,9 @@
     padding-top: 7rem;
     overflow: hidden; /* Hides anything which overflows the element */
     text-align: center; 
-    background-image: url('../../Pictures/Keyboard.jpg');
+    background-image: url('../../Pictures/orion-nebula-g534aa112c_1280.jpg');
+    background-size: cover;
+    border-style: solid;
  }
 
 
