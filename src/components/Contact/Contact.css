@@ -1,0 +1,24 @@
+.Email_Container{
+   
+    text-align: center;
+    border-radius: 0.35em;
+    background-color: var(--color-bg-variant);
+    width: 15rem;
+    
+}
+
+.Whatsapp_Container{
+   
+    text-align: center;
+    border-radius: 0.35em;
+    background-color: var(--color-bg-variant);
+    width: 15em; 
+}
+
+.Contact_Flex_Container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 7.5em;
+    
+}

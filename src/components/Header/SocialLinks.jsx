@@ -15,9 +15,10 @@ function SocialLinks(){
 
         <div className='SocialLinksContainer'> 
 
-            <a href="https://github.com" target="_blank" rel="noreferrer"> <BsGithub /> </a> 
-            <a href="https://linkedin.com" target="_blank" rel="noreferrer"><BsLinkedin /></a>
-            <a href="https://instagram.com" target="_blank" rel="noreferrer">< BsInstagram/></a>
+            <a href="https://github.com/akskan160103" target="_blank" rel="noreferrer"> <BsGithub /> </a> {/* When the target attribute is set to '_blank', it makes
+            the link open up in a new tab */}
+            <a href="https://www.linkedin.com/in/akshay-kannan-554668259/" target="_blank" rel="noreferrer"><BsLinkedin /></a>
+            <a href="https://instagram.com/akskan_16" target="_blank" rel="noreferrer">< BsInstagram/></a>
 
 
         </div>

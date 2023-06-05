@@ -1,11 +1,10 @@
 .Experience_Container{
-    top:3em;
+    margin-top: 1rem;
     margin-left: 3em;
     margin-right: 3em;
     position:static;
     display: inline-block;
     width: 45%;
-    border-style: solid;
     border-radius: 0.35rem;
     background-color: rgb(102, 30, 170);
     
@@ -24,13 +23,11 @@
     font-size: x-small;
 }
 
-.Project_Container{
-    top: 3em;
-    right:2em;
+.Project_Container{ 
+    margin-top: 1rem;
     position:static;
     display: inline-block;
     width: 45%;
-    border-style: solid;
     border-radius: 0.35rem;
     background-color: var(--color-bg-variant)
 }
@@ -46,5 +43,6 @@
 }
 #Skills{
     background-image: url('../../Pictures/orion-nebula-g534aa112c_1280.jpg');
+    position: relative;
    
 }

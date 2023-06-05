@@ -19,7 +19,7 @@ function Header()
 
            
             
-            <a href="#contact" className='scroll_down'>Scroll Down</a> {/* Creates a hyperlink to an element within <html> that has an id attribute of contact */}
+            <a href="#Contact" className='scroll_down'>Scroll Down</a> {/* Creates a hyperlink to an element within <html> that has an id attribute of contact */}
             <SocialLinks />
             <img src={codeimage} className='code'alt = 'Code' /> 
 

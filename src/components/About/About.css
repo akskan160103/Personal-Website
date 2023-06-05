@@ -83,7 +83,8 @@ section h5,h2 {
     text-align: left;
     border-radius: 0.35em;
     text-align: center;
-    width: max-content
+    width: max-content;
+    font-size: x-small;
 }
 .Age_Container ul{
     text-align: left;
