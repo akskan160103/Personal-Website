@@ -27,7 +27,7 @@ function Experience()
                 <h6>V1 Team: Fall 2022 - Present</h6>
 
                 <ul>
-                    <li>Organized the 'V1 Startup Fair' - one of the largest student-run career fairs - that took place on Nov. 16th 2023.
+                    <li>Organized the 'V1 Startup Fair' - one of the largest student-run career fairs - that took place on Nov. 16th 2022.
                         It attracted 400+ students, 17 high-growth startups, and over 30 offers extended.
                     </li>
 
