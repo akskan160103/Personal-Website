@@ -32,7 +32,7 @@ function Experience()
                     </li>
 
                     <li> Worked on maintenance of the website as part of the platform sub-team.</li>
-                    <li>Moderated V1 Connect - A regular talk series hosted by our club. </li>
+                    <li>Moderated V1 Connect - A regular talk series hosted by our club. </li> 
 
                 </ul>
 
