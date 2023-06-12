@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Personal-Website/static/css/main.1230211a.css",
+    "main.js": "/Personal-Website/static/js/main.2fdd28a7.js",
+    "static/media/Headshot.jpg": "/Personal-Website/static/media/Headshot.39920639520e37497162.jpg",
+    "static/media/orion-nebula-g534aa112c_1280.jpg": "/Personal-Website/static/media/orion-nebula-g534aa112c_1280.e679025811e411bb1bb2.jpg",
+    "static/media/Code.jpeg": "/Personal-Website/static/media/Code.e67d61b32973a9f10a1a.jpeg",
+    "index.html": "/Personal-Website/index.html",
+    "main.1230211a.css.map": "/Personal-Website/static/css/main.1230211a.css.map",
+    "main.2fdd28a7.js.map": "/Personal-Website/static/js/main.2fdd28a7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1230211a.css",
+    "static/js/main.2fdd28a7.js"
+  ]
+}
