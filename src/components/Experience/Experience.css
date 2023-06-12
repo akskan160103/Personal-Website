@@ -1,4 +1,5 @@
 .Experience_Container{
+    vertical-align: top;
     margin-top: 1rem;
     margin-left: 3em;
     margin-right: 3em;
@@ -23,7 +24,11 @@
     font-size: x-small;
 }
 
+/* For in-line block and in-line elements, the margin-top etc. is calculated from the top of the line that the element belongs to: 
+vertical-align: top aligns in-line/in-line block elements such that the top of those elements are aligned with each other and the top of the line
+*/
 .Project_Container{ 
+    vertical-align: top;
     margin-top: 1rem;
     position:static;
     display: inline-block;
