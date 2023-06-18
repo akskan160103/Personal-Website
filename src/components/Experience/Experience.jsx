@@ -45,10 +45,10 @@ function Experience()
 
                 <h6>TableVision</h6>
                 <ul>
-                    <li> Developed a computer vision model - 'Table Vision' utlizing the YOLOv5 framework.</li>
+                    <li> Developed a flask-related API - 'Table Vision' utlizing the YOLOv5 framework.</li>
                     <li> Trained the model on a diverse dataset of images, featuring both occupied and un-occupied tables of varying sizes </li>
                     <li> The purpose of the model is to help students know the availability of free seats in their favorite study spots.</li>
-                    <li> We're targeting a full launch by September !</li>
+                    <li> Eventually aim to deploy our product on a large scale, including at Universities . </li>
 
                 </ul>
 

@@ -57,9 +57,9 @@ function About()
         </div>
 
 
-        <div className='General_Intro'> {/* Speak about technical Interests */}
+        <div className='General_Intro'> {/* Speak about technical Interests */} 
         
-        <p>Hey ! My name is Akshay Kannan, and I'm stufying CS at the College of Engineering. I'm interested in coding and would want to become a software developer in the future. I've decided to keep myself busy this summer which consists of: Taking courses for my minor, Do an internship, and work on personal projects. On top of this, I've also taught myself web development and am looking to eventually learn the basics of python. On the non-academic side, on top of pursuing my existing hobbies, I aim to learn the basics of cooking. I also want to be able to get my driving license !  </p>
+        <p>Hey ! My name is Akshay Kannan, and I'm stufying CS at the College of Engineering. I'm interested in coding and want to become a software developer in the future. I've decided to keep myself busy this summer which consists of: Taking courses for my minor, Do an internship, and work on personal projects. On top of this, I've also taught myself web development and am looking to eventually learn the basics of python. On the non-academic side, on top of pursuing my existing hobbies, I aim to learn the basics of cooking. I also want to get my driving license !  </p>
 
 
         </div>
