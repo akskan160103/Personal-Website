@@ -3,6 +3,8 @@
     background: var(--color-bg);
     background-image: url("https://www.transparenttextures.com/patterns/sos.png");
     border-style: solid;
+    border-color: transparent;
+    
 }
 
 section h5,h2 {
