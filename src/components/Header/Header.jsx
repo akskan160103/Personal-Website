@@ -1,3 +1,4 @@
+
 import React from 'react'
 import '../../index.css'
 import CV from '../Header/CV'
@@ -27,8 +28,10 @@ function Header()
         </header> 
 
     );
+    
 
 
 }
 
 export default Header;
+

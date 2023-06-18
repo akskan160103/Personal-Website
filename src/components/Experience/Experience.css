@@ -1,6 +1,9 @@
 #Skills{
+    
     border-style: solid;
-    border-color: transparent;
+    border-color: transparent; /* Added to prevent margins from collapsing: */
+    
+    
 }
 .Experience_Container{
     vertical-align: top;
@@ -11,7 +14,8 @@
     display: inline-block;
     width: 45%;
     border-radius: 0.35rem;
-    background-color: rgb(102, 30, 170);
+    background-color: rgb(102, 30, 170); 
+    
     
 }
 
