@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+# Personal Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+This is my personal website designed using React.js. It features four distinct sections, a responsive navbar, and an interactive social media links bar. This project focuses on delivering a clean, easy-to-navigate user experience with reusable components.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+### Four Distinct Sections
+- The website is organized into four different sections, making use of React.js to create highly organized and reusable components.
+    - **Header** - Contains all my social media links: Github, Linkedin, and instagram.
+    - **About** - Contains a brief insight into my background, education, hobbies etc.
+    - **Experience** - Contains my experiences and projects that I've worked on.
+    - **Contact** - Contains information on how to reach out to me through my email and WhatsApp. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Responsive Navbar
+- The navigation bar is responsive and provides immediate visual feedback during navigation. This is implemented using React's `useState` hook.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Emphasized UI/UX Principles
+- Advanced CSS selectors are used to enhance user interactions, particularly with a social media links bar that's designed to be engaging and intuitive.
 
-### `npm test`
+## Project Status
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Current Limitations
+- The website is currently optimized for laptop screen sizes and may not display as intended on other devices.
+- **Note**: I am actively working on modifying the website to be fully responsive across various screen sizes.
 
-### `npm run build`
+## Future Plans
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Full responsiveness for tablet and mobile sizes.
+- Additional features to be determined based on user feedback.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## License and Copyright
 
-### `npm run eject`
+**Copyright © 2023 Akshay Kannan. All rights reserved.**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+**IMPORTANT**: This codebase and all its contents are proprietary and confidential. Any unauthorized use, reproduction, or distribution of the content is strictly prohibited. **Any violation may result in legal action.**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
