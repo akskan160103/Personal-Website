@@ -20,7 +20,8 @@ This is my personal website designed using React.js. It features four distinct s
 - Advanced CSS selectors are used to enhance user interactions, particularly with a social media links bar that's designed to be engaging and intuitive.
 
 ## Project Status
-
+### Deployment
+- The website is deployed using Vercel and **is accessible** at **[akshaykannan.com](https://akshaykannan.com)**
 ### Current Limitations
 - The website is currently optimized for laptop screen sizes and may not display as intended on other devices.
 - **Note**: I am actively working on modifying the website to be fully responsive across various screen sizes.
